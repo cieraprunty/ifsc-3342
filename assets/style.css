@@ -1,0 +1,19 @@
+body {
+    background-color: antiquewhite;
+    background-image: url("../assets/img/peachy.jpg");
+    background-image: opacity 0.7;
+
+}
+ul {
+    list-style-type: square;
+    background: #B2D925;
+    color: #F2766B;
+    margin: 60px;
+  }
+
+  .background{
+    background-image: url("../assets/img/peachy.jpg") ;
+    background-repeat: no-repeat, repeat;
+    background-size: auto;
+    opacity: 0.9;
+}
