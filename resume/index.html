@@ -26,131 +26,128 @@
 <body>
 
   <!-- Add your site or application content here -->
-  <p>Hello world! This is HTML5 Boilerplate.</p>
   <script src="js/vendor/modernizr-3.11.8.min.js"></script>
   <script src="js/app.js"></script>
 
 </body>
 
-</html>
-<header>
-    <!-- Main navigation -->
-    <nav class="primary">
-      <a href="#about">About</a>
-      <a href="#skills">Skills</a>
-      <a href="#experience">Experience</a>
-      <a href="#education">Education</a>
-    </nav>
-  </header>
-  <!-- Main -->
-  <main itemscope itemtype="http://schema.org/Person">
-    <h1>Full Name</h1>
-    <section id="about">
-      <h2>Personal details</h2>
-      <img itemprop="image" src="http://www.fillmurray.com/400/400" alt="Your Name">
-      <p itemprop="description">Statement of Intent</p>
-      <dl>
-        <dt>Name</dt>
-        <dd itemprop="name">
-          <span itemprop="givenName">First Name</span> <span itemprop="familyName">Last name</span>
-        </dd>
-        <dt>Date of birth</dt>
-        <dd itemprop="birthDate"><time datetime="1976-10-12">10/12/1976</time></dd>
-        <dt>Nationality</dt>
-        <dd itemprop="nationality">Nationality</dd>
-        <dt>Location</dt>
-        <dd itemprop="homeLocation">State</dd>
-        <dt>Telephone</dt>
-        <dd>
-          <a itemprop="telephone" href="tel:555.555.5555">555.555.5555</a>
-        </dd>
-        <dt>Email</dt>
-        <dd>
-          <a itemprop="email" href="mailto:email@mail.com">email@mail.com</a>
-        </dd>
-        <dt>Address</dt>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
 
-        <dd itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
-          <span itemprop="streetAddress">2801 South University</span>
-          <span itemprop="addressLocality">Little Rock</span>
-          <span itemprop="postalCode">72204</span>
-          <span itemprop="addressCountry">USA</span>
-        </dd>
+<header class="container">
+  <!-- Main navigation -->
+  <nav class="primary">
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#experience">Experience</a>
+    <a href="#education">Education</a>
+  </nav>
+</header>
+<!-- Main -->
+<main itemscope itemtype="http://schema.org/Person" class="container">
+  <h1 class="page-title">Ciera E. Prunty</h1>
+  <section id="about">
+    <h2 class="visuallyhidden">Personal details</h2>
+    <div class="bio">
+      <img itemprop="image" src="../resume/assest/img/IMG_6901.jpg" width="200" height="200" Ciera Prunty>
+    <p itemprop="description">Ciera is a Senior at the University of Arkansas Little Rock. She is getting her BA in web design and deveoplment. She is also a certificate in baking and pastry and also cake decorating. Her goal is to combined both of her of degress. </p>
+    </div>  
+    <dl class="details">
+      <dt>Name</dt>
+      <dd itemprop="name">
+        <span itemprop="givenName">Ciera</span> <span itemprop="familyName">Prunty</span>
+      </dd>
+      <dt>Date of birth</dt>
+      <dd itemprop="birthDate"><time datetime="1976-10-12">08/24/1999</time></dd>
+      <dt>Nationality</dt>
+      <dd itemprop="nationality">United States</dd>
+      <dt>Location</dt>
+      <dd itemprop="homeLocation">Joneboro, Arkansas</dd>
+      <dt>Telephone</dt>
+      <dd>
+        <a itemprop="telephone" href="tel:501-650-5301">501-650-5301</a>
+      </dd>
+      <dt>Email</dt>
+      <dd>
+        <a itemprop="email" href="cprunty@ualr.edu">cprunty@ualr.edu</a>
+      </dd>
+      <dt>Address</dt>
 
-      </dl>
-      <ul class="related-links">
-        <li><a itemprop="url" rel="me" href="https://github.com/profile">github</a></li>
-        <li><a itemprop="url" rel="me" href="http://linkedin.com/profile">linkedin</a></li>
-        <li><a itemprop="url" href="resume.pdf" download>pdf resume</a></li>
-      </ul>
-    </section>
-    <section id="skills">
-      <h2>Skills</h2>
-      <ul>
-        <li class="skill">HTML</li>
-        <li class="skill">PHP</li>
-        <li class="skill">Java</li>
-        <li class="skill">Scss</li>
-      </ul>
-    </section>
-    <section id="experience">
-      <h2>Experience</h2>
-      <!-- current job -->
-      <article class="job">
-        <h3 itemprop="jobTitle">Lead Web Developer</h3>
-        <div itemprop="worksFor" itemscope itemtype="http://schema.org/Organization">
-          <span itemprop="name">Company Name 1</span>
-          <span>February 2010 - Present</span>
-          <p itemprop="description">Lorem ipsum dolor sit amet, consectetuer adipiscing elit...</p>
-          <span itemprop="location" itemscope itemtype="http://schema.org/Place">
+      <dd itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+        <span itemprop="streetAddress">2801 South University</span>
+        <span itemprop="addressLocality">Little Rock</span>
+        <span itemprop="postalCode">72204</span>
+        <span itemprop="addressCountry">USA</span>
+      </dd>
+
+    </dl>
+    <ul class="related-links">
+      <li><a itemprop="url" rel="me" href="https://github.com/cieraprunty/ifsc-3342.git"><i class="fab fa-github-square"></i> github</a></li>
+      <li><a itemprop="url" rel="me" href="https://www.linkedin.com/in/ciera-prunty-787485222/"><i class="fab fa-linkedin-in"></i> linkedin</a></li>
+      <li><a itemprop="url" href="file:///C:/Users/ciera/Downloads/Ciera%20Resume.pdf" download><i class="far fa-file-pdf"></i> pdf resume</a></li>
+    </ul>
+  </section>
+  <section id="skills">
+    <h2>Skills</h2>
+    <ul>
+      <li class="skill">HTML</li>
+      <li class="skill">Costumer Service</li>
+      <li class="skill">Problem solving</li>
+    </ul>
+
+  </section>
+  <section id="experience">
+    <h2>Experience</h2>
+    <!-- current job -->
+    <article class="job">
+      <h3 itemprop="jobTitle">Cake Decorator</h3>
+      <div itemprop="worksFor" itemscope itemtype="http://schema.org/Organization">
+        <span itemprop="name">The Blue Cake Company</span>
+        <span>February 2019 - Present</span>
+        <p itemprop="description">I am crossed trained to work in almost every potion in the bakery</p>
+        <span itemprop="location" itemscope itemtype="https://www.thebluecakecompany.com/">
           <a itemprop="url" href="http://link-to-company.com">Company URL</a>
           <span itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
-          <span itemprop="addressLocality">Anywhere,USA</span>
+            <span itemprop="315 N Bowman Rd #14, Little Rock, AR 72211">315 N Bowman Rd #14, Little Rock, AR 72211</span>
           </span>
-          </span>
-        </div>
-      </article>
-      <!-- Previous Jobs - Notice Slightly Different Format-->
-      <article class="job" itemscope itemtype="http://schema.org/Organization">
-        <h3 itemprop="name">Senior Developer</h3>
-          <span itemprop="location" itemscope itemtype="http://schema.org/Place">
-          <span itemprop="name">Company Name 2</span>
-          <a itemprop="url" href="http://link-to-company.com">Company URL</a>
-          <span itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
-            <span itemprop="addressLocality">Anywhere,USA</span>
-          </span>
-          </span>
-          <span itemprop="startDate" content="2006-02-21T20:00">February 2006</span>
-          <span itemprop="endDate" content="2009-02-21T20:00">February 2009</span>
-        <p itemprop="description">Lorem ipsum dolor sit amet, consectetuer adipiscing elit...</p>
-      </article>
-      <article class="job" itemscope itemtype="http://schema.org/Organization">
-        <h3 itemprop="name">Web Developer</h3>
-          <span itemprop="location" itemscope itemtype="http://schema.org/Place">
-          <span itemprop="name">Company Name 2</span>
-          <a itemprop="url" href="http://link-to-company.com">Company URL</a>
-          <span itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
-            <span itemprop="addressLocality">Anywhere, USA</span>
-          </span>
-          </span>
-          <span itemprop="startDate" content="2004-01-21T20:00">January 2004</span>
-          <span itemprop="endDate" content="2006-02-21T20:00">February 2006</span>
-        <p itemprop="description">Lorem ipsum dolor sit amet, consectetuer adipiscing elit...</p>
-      </article>
-    </section>
-    <section id="education">
-      <h2>Education</h2>
+        </span>
+      </div>
+    </article>
+    <!-- Previous Jobs - Notice Slightly Different Format-->
+    <article class="job" itemscope itemtype="http://schema.org/Event/Job">
+      <h3 itemprop="name">Team Member </h3>
+      <span itemprop="location" itemscope itemtype="http://schema.org/Place">
+        <span itemprop="name">Cupcakes on Kavanaugh</span>
+        <a itemprop="url" href="http://link-to-company.com">Company URL</a>
+        <span itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+          <span itemprop="addressLocality">5625 Kavanaugh Blvd, Little Rock </span>
+        </span>
+      </span>
+      <span itemprop="startDate" content="2006-02-21T20:00">June 2016</span> -
+      <span itemprop="endDate" content="2009-02-21T20:00">November 2018</span>
+      <p itemprop="description">I was trained to do everything in the shop. From baking, making buttercreams and fillings, to helping customs. I open and closed and also helped promote the business.</p>
+    </article>
+  </section>
+  <section id="education">
+    <h2>Education</h2>
+    <article class="certificate" itemprop="alumniOf" itemscope itemtype="http://schema.org/EducationalOrganization">
+      <h3 itemprop="description"><abbr title="Master of Science">BA</abbr> Web Design and Development</h3>
+      <span itemprop="name">University of Arkansas Little Rock</span>
+      <span itemprop="location" itemscope>Anywhere, USA</span>
+      <span>2019-2022</span>
       <article class="certificate" itemprop="alumniOf" itemscope itemtype="http://schema.org/EducationalOrganization">
-        <h3 itemprop="description"><abbr title="Master of Science">BA</abbr>Web Design and Development</h3>
-          <span itemprop="name">University name 1</span>
-          <span itemprop="location" itemscope>Anywhere, USA</span>
-          <span>2005-2007</span>
-      </article>
-    </section>
-  </main>
-  <!-- Footer -->
-  <footer>
-    <div id="copyright">
-      &copy; company. All rights reserved.
-    </div>
-  </footer>
+        <h3 itemprop="description"><abbr title="Master of Science">AS</abbr> Baking and Pastry</h3>
+        <span itemprop="name">University of Arkansas – Pulaski Technical Colleg</span>
+        <span itemprop="location" itemscope>13000 Interstate 30
+          Little Rock, AR 72210</span>
+        <span>2019-2022</span>
+    </article>
+  </section>
+</main>
+<!-- Footer -->
+<footer>
+  <div id="copyright">
+    &copy; 2022 Ciera Prunty
+  </div>
+</footer>
